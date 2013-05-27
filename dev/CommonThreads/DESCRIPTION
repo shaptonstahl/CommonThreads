@@ -1,9 +1,14 @@
 Package: CommonThreads
 Type: Package
-Title: What the package does (short line)
+Title: Which variables best explain membership?
 Version: 1.0
-Date: 2013-03-15
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Date: 2013-05-27
+Author: Stephen R. Haptonstahl
+Maintainer: Stephen R. Haptonstahl <srh@haptonstahl.org>
+Suggests:
+    testthat
+Description: Identify which variables explain best why these observations/nodes
+    are distinct from those observations.
+License: GPL (>= 2)
+Collate:
+    'CommonThreads.R'

@@ -1,0 +1,15 @@
+{
+    "contents" : "#' Run to update documentation\n\nlibrary(roxygen2)\nroxygenize(\"dev/CommonThreads\")",
+    "created" : 1369708814444.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1404143210",
+    "id" : "A34DD613",
+    "lastKnownWriteTime" : 1369708193,
+    "path" : "~/GitHub/CommonThreads/update_documentation.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

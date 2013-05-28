@@ -5,12 +5,10 @@ Version: 1.0
 Date: 2013-05-27
 Author: Stephen R. Haptonstahl
 Maintainer: Stephen R. Haptonstahl <srh@haptonstahl.org>
-Suggests:
-    testthat,dummies
+Suggests: testthat,dummies
 Description: Identify which variables explain best why these observations/nodes
     are distinct from those observations.
 License: GPL (>= 2)
-Collate:
-    'CommonThreads.R'
-    'is_subset.R'
-    'CommonThreadDescriptions.R'
+Collate: 'CommonThreads.R' 'is_subset.R' 'CommonThreadDescriptions.R'
+Packaged: 2013-05-28 02:53:10 UTC; Steve
+Built: R 3.0.1; ; 2013-05-28 02:53:17 UTC; windows

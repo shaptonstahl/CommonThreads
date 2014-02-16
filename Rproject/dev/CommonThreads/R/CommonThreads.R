@@ -28,7 +28,7 @@ CommonThreads <- function(X,
   ###  deal with default and missing values  ###
   
   # Will work with Z internally
-  Z <- dummy.data.frame(X, sep=".")
+  Z <- dummy.data.frame(X, sep=".")  # package::dummies; 
   Z <- scale(Z)
   
   # code dependent variable, taking out repeated elements

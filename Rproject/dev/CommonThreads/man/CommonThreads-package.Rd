@@ -2,35 +2,26 @@
 \alias{CommonThreads-package}
 \alias{CommonThreads}
 \docType{package}
-\title{
-What the package does (short line)
-~~ package title ~~
-}
+\title{Which variables best explain membership?}
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+Given a (rectangular) data set and some subset of (the rows of) the data, identifies which columns (variables) best predict membership in that subset. One way to interpret this is that these variables provide the "common thread" among the observations in the subset.
 }
 \details{
 \tabular{ll}{
 Package: \tab CommonThreads\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
-Date: \tab 2013-03-15\cr
-License: \tab What license is it under?\cr
+Date: \tab 2014-02-16\cr
+License: \tab MIT + LICENSE\cr
 }
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-Who wrote it
-
-Maintainer: Who to complain to <yourfault@somewhere.net>
-~~ The author and/or maintainer of the package ~~
+Stephen R. Haptonstahl <srh@haptonstahl.org>
 }
 \references{
 ~~ Literature or other references for background information ~~
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation ~~
-~~ directory ~~
 \keyword{ package }
 \seealso{
 ~~ Optional links to other man pages, e.g. ~~

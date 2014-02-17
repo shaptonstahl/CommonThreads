@@ -28,8 +28,8 @@ CommonThreads <- function(X,
   ###  deal with default and missing values  ###
   
   # Will work with Z internally
-  Z <- dummy.data.frame(X, sep=".")  # package::dummies; 
-  Z <- scale(Z)
+  Z <- dummy.data.frame(X, sep=".")  # package::dummies; NOT SURE ABOUT THIS STEP
+  Z <- scale(Z)   # makes each column mean=0, stdev=1
   
   # code dependent variable, taking out repeated elements
   dep.var.name <- paste("cty", paste(sample(letters, 10), collapse=""), sep=".")  # random name to avoid colision

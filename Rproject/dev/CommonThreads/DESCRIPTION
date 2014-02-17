@@ -2,15 +2,11 @@ Package: CommonThreads
 Type: Package
 Title: Which variables best explain membership?
 Version: 1.0
-Date: 2013-05-27
+Date: 2014-02-16
 Author: Stephen R. Haptonstahl
 Maintainer: Stephen R. Haptonstahl <srh@haptonstahl.org>
 Suggests:
     testthat,dummies
 Description: Identify which variables explain best why these observations/nodes
     are distinct from those observations.
-License: GPL (>= 2)
-Collate:
-    'CommonThreads.R'
-    'is_subset.R'
-    'CommonThreadDescriptions.R'
+License: MIT + LICENSE

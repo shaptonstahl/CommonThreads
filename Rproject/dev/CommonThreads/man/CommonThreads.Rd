@@ -2,7 +2,7 @@
 \alias{CommonThreads}
 \title{Which variables best explain membership?}
 \usage{
-  CommonThreads(X, members, min.nonzero.certainty = 0.75)
+CommonThreads(X, members, min.nonzero.certainty = 0.75)
 }
 \arguments{
   \item{X}{data.frame of observations}
@@ -15,12 +15,12 @@
   coefficient}
 }
 \value{
-  data.frame with variables column.name, effect,
-  prob.not.zero
+data.frame with variables column.name, effect,
+prob.not.zero
 }
 \description{
-  Identify which variables explain best why these
-  observations/nodes are distinct from those observations.
+Identify which variables explain best why these
+observations/nodes are distinct from those observations.
 }
 \examples{
 data(iris)
@@ -29,10 +29,10 @@ CommonThreads(X=iris, members=observations.selected)
 CommonThreads(X=iris, members=observations.selected, min.nonzero.certainty=.5)
 }
 \author{
-  Stephen R. Haptonstahl \email{srh@haptonstahl.org}
+Stephen R. Haptonstahl \email{srh@haptonstahl.org}
 }
 \seealso{
-  Use the output to describe the relationships in plain
-  text with \code{\link{CommonThreadDescriptions}}.
+Use the output to describe the relationships in plain text
+with \code{\link{CommonThreadDescriptions}}.
 }
 

@@ -2,18 +2,18 @@
 \alias{CommonThreadDescriptions}
 \title{Generate plain text descriptions of the CommonThreads}
 \usage{
-  CommonThreadDescriptions(X)
+CommonThreadDescriptions(X)
 }
 \arguments{
   \item{X}{output of CommonThreads}
 }
 \value{
-  character vector with plain text desctions for each
-  Thread in decreasing order of effect.
+character vector with plain text desctions for each Thread
+in decreasing order of effect.
 }
 \description{
-  Uses the output of the CommonThreads function and
-  describes those common theads in plain text.
+Uses the output of the CommonThreads function and describes
+those common theads in plain text.
 }
 \examples{
 data(iris)
@@ -22,9 +22,9 @@ result.ct <- CommonThreads(X=iris, members=observations.selected)
 CommonThreadDescriptions(result.ct)
 }
 \author{
-  Stephen R. Haptonstahl \email{srh@haptonstahl.org}
+Stephen R. Haptonstahl \email{srh@haptonstahl.org}
 }
 \seealso{
-  \code{\link{CommonThreads}}
+\code{\link{CommonThreads}}
 }
 

@@ -1,0 +1,16 @@
+{
+    "contents" : "# Test CommonThreads function\n\nsource('~/GitHub/CommonThreads/Rproject/dev/CommonThreads/R/CommonThreads.R')\nlibrary(dummies)\n\ndata(iris)\n\ntest.X <- subset(iris, select = -Species)\ntest.members <- (iris$Species == 'versicolor')\ntest.res <- CommonThreads(test.X, test.members)\n\ntest.res$threads\n\n\n",
+    "created" : 1398725776513.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3674682897",
+    "id" : "41A5AB0B",
+    "lastKnownWriteTime" : 1398726450,
+    "path" : "~/GitHub/CommonThreads/testing/test_CommonThreads.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

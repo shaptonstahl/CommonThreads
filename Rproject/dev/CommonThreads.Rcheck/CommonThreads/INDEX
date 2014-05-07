@@ -1,9 +1,0 @@
-CommonThreadDescriptions
-                        Generate plain text descriptions of the
-                        CommonThreads
-CommonThreads           Which variables best explain membership?
-CommonThreads-package   What the package does (short line) ~~ package
-                        title ~~
-is.subset               Checks to see if the elements of one
-                        vector/array are contained in another
-                        vector/array

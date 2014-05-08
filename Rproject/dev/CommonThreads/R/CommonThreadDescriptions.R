@@ -12,7 +12,7 @@
 #' data(iris)
 #' observations.selected <- sample(1:nrow(iris), 30)
 #' result.ct <- CommonThreads(X=iris, members=observations.selected)
-#' CommonThreadDescriptions(result.ct)
+#' CommonThreadDescriptions(result.ct)$prose
 CommonThreadDescriptions <- function(X) {
   return(X)
 }

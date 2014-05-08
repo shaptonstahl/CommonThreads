@@ -1,0 +1,15 @@
+{
+    "contents" : "\\name{CommonThreads-package}\n\\alias{CommonThreads-package}\n\\alias{CommonThreads}\n\\docType{package}\n\\title{Which variables best explain membership?}\n\\description{\nGiven a (rectangular) data set and some subset of (the rows of) the data, identifies which columns (variables) best predict membership in that subset. One way to interpret this is that these variables provide the \"common thread\" among the observations in the subset.\n}\n\\details{\n\\tabular{ll}{\nPackage: \\tab CommonThreads\\cr\nType: \\tab Package\\cr\nVersion: \\tab 1.0\\cr\nDate: \\tab 2014-05-07\\cr\nLicense: \\tab MIT + LICENSE\\cr\n}\n~~ An overview of how to use the package, including the most important functions ~~\n}\n\\author{\nStephen R. Haptonstahl <srh@haptonstahl.org>\n}\n\\references{\n~~ Literature or other references for background information ~~\n}\n\\keyword{ package }\n\\seealso{\n~~ Optional links to other man pages, e.g. ~~\n~~ \\code{\\link[<pkg>:<pkg>-package]{<pkg>}} ~~\n}\n\\examples{\n~~ simple examples of the most important functions ~~\n}\n",
+    "created" : 1399511694132.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2612173744",
+    "id" : "29873F82",
+    "lastKnownWriteTime" : 1399511702,
+    "path" : "~/GitHub/CommonThreads/Rproject/dev/CommonThreads/man/CommonThreads-package.Rd",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_doc"
+}

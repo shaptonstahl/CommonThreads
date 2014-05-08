@@ -1,0 +1,15 @@
+{
+    "contents" : "Package: CommonThreads\nType: Package\nTitle: Which variables best explain membership?\nVersion: 1.0\nDate: 2014-05-07\nAuthor: Stephen R. Haptonstahl\nMaintainer: Stephen R. Haptonstahl <srh@haptonstahl.org>\nImports:\n    dummies\nSuggests:\n    testthat\nDescription: Identify which variables explain best why these observations/nodes\n    are distinct from those observations.\nLicense: MIT + LICENSE\n",
+    "created" : 1399511679508.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2154978887",
+    "id" : "41FD2494",
+    "lastKnownWriteTime" : 1399511689,
+    "path" : "~/GitHub/CommonThreads/Rproject/dev/CommonThreads/DESCRIPTION",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "dcf"
+}

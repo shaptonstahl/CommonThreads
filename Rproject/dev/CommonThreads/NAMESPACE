@@ -1,3 +1,4 @@
 export(CommonThreadDescriptions)
 export(CommonThreads)
 export(is.subset)
+importFrom(dummies, dummy.data.frame)  # used by CommonThreads

@@ -11,7 +11,7 @@ Given a (rectangular) data set and some subset of (the rows of) the data, identi
 Package: \tab CommonThreads\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
-Date: \tab 2014-02-16\cr
+Date: \tab 2014-05-07\cr
 License: \tab MIT + LICENSE\cr
 }
 ~~ An overview of how to use the package, including the most important functions ~~

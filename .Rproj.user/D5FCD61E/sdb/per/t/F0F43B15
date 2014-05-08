@@ -1,0 +1,15 @@
+{
+    "contents" : "#' Generate plain text descriptions of the CommonThreads\n#'\n#' Uses the output of the CommonThreads function and describes those\n#' common theads in plain text.\n#' \n#' @param X output of CommonThreads\n#' @return character vector with plain text desctions for each Thread in decreasing order of effect.\n#' @export\n#' @seealso \\code{\\link{CommonThreads}}\n#' @author Stephen R. Haptonstahl \\email{srh@@haptonstahl.org}\n#' @examples\n#' data(iris)\n#' observations.selected <- sample(1:nrow(iris), 30)\n#' result.ct <- CommonThreads(X=iris, members=observations.selected)\n#' CommonThreadDescriptions(result.ct)$prose\nCommonThreadDescriptions <- function(X) {\n  return(X)\n}\n                          ",
+    "created" : 1399507665452.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "463756691",
+    "id" : "F0F43B15",
+    "lastKnownWriteTime" : 1399511649,
+    "path" : "~/GitHub/CommonThreads/Rproject/dev/CommonThreads/R/CommonThreadDescriptions.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

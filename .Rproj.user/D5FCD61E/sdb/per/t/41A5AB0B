@@ -1,12 +1,12 @@
 {
-    "contents" : "# Test CommonThreads function\n\nsource('~/GitHub/CommonThreads/Rproject/dev/CommonThreads/R/CommonThreads.R')\nlibrary(dummies)\n\ndata(iris)\n\ntest.X <- subset(iris, select = -Species)\ntest.members <- (iris$Species == 'versicolor')\ntest.res <- CommonThreads(test.X, test.members)\n\ntest.res$threads\n\n\n",
+    "contents" : "# Test CommonThreads function\n\nsource('~/GitHub/CommonThreads/Rproject/dev/CommonThreads/R/CommonThreads.R')\nlibrary(dummies)\n\ndata(iris)\n\ntest.X <- subset(iris, select = -Species)\ntest.members <- (iris$Species == 'versicolor')\ntest.res <- CommonThreads(test.X, test.members)\n\ntest.res$threads\n\n\n# Test dummy.data.frame\nX <- data.frame(a=sample(letters, 100, TRUE))\nX.dummies <- dummy.data.frame(X, sep='.')\ny <- rnorm(100)\nsummary(lm(y ~ ., data=X.dummies))\n\n\n# Demo common threads\nn <- 100\ntest.X <- as.data.frame(matrix(rnorm(n*10), ncol=10))\ntest.members <- sample(1:n, 5)\n\ntest.res <- CommonThreads(test.X, test.members)\ntest.res$threads\n\n",
     "created" : 1398725776513.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3674682897",
+    "hash" : "2322658626",
     "id" : "41A5AB0B",
-    "lastKnownWriteTime" : 1398726450,
+    "lastKnownWriteTime" : 1399507658,
     "path" : "~/GitHub/CommonThreads/testing/test_CommonThreads.R",
     "properties" : {
         "tempName" : "Untitled1"
